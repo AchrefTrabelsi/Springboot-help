@@ -7,7 +7,7 @@ public class ServiceCreator{
              String ls=s.substring(0, 1).toLowerCase() + s.substring(1);
              String lss=ls+"s";
              System.out.println("@Autowired\nprivate "+s+"Repository "+ls+"Repository;\n");
-             System.out.println("public List<"+s+"> getAll"+s+"() {\n"
+             System.out.println("public List<"+s+"> getAll"+ss+"() {\n"
                 +"List<"+s+"> "+lss+" = new ArrayList<"+s+">();\n"
 		        +ls+"Repository.findAll().forEach("+lss+"::add);\n"
 	            +"return "+lss+";\n}\n");
