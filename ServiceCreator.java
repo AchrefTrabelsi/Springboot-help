@@ -1,4 +1,4 @@
-public class HelloWorld{
+public class ServiceCreator{
 
      public static void main(String []args){
          String[] classes = {"Test","Test1"} ;
